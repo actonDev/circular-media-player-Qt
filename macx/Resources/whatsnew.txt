@@ -1,0 +1,126 @@
+v0.9.7:
+HAPPY NEW YEAR!!
+
+### Changed Qt (the framework used) from version 4.8 to 5, so no more "Phonon error!". Now every file can play!
++new tab: Last.fm. See your (or any other user's) loved tracks, weekly chart and tagged tracks.
++Last.fm integration: if you have you last.fm account set up, you can right click a circle and via Last.fm love it, or tag it.
+note: in this release the adding files in the library functionality is broken. To be fixed.
+
+v0.9.6.5:
+#fixed a crash when draggin and dropping from the results table onto the view
++trying to fix vkontakte request flooding when many users use the program at the same time
+#improving help screen... coming next: video showing step by step how to
+
+v0.9.6:
++new search modes: tag top albums, artist top albums
++check for updates on program start
+#fix:now in style.css file of a theme, you can use a file-image using it's relative path
+#folder structure changes
+
+v0.9.5:
++History shows the date a track got played (plus option to not add a related track that has played in the last N hours)
++new mouse shortcuts/modifiers (see help -> shortcuts) for deleting children/siblings, set as root, rotate children
++mac release :D
+
+v0.9.4:
++New search modes: album, similar tracks (and quick access by right click->search-> album or similar tracks)
++multiple select on tables! so drag the down (or over an existing node)
++show loading dots when waiting for a network reply
++when hovering, draw a background over node text (improves readability)
++right click -> search on google (useful! :) )
+
+v0.9.3:
++Shuffle mode (plays forever a random track that exists in the window� getting related automatically gets disabled) (options->shuffle)
++moving nodes changes.. reorder nodes on mouse release
++new options under options->preferences
++new svg image handling (better for theming)
+
+v0.9.2:
+#Fix: better handling vkontakte requests for source, now sending requests every v0.5 sec
++ animating circles movement
++ Shift+click a node to enqueue all the previous nodes
++ Help-> Shortcuts dialog
+
+v0.9.1:
+#FIX: fixed for no auto selecting source, eve though sources were founded ( right click -> sources had sources)
++right click -> search artist top track, search tag top tracks: click and in the tab online the search will be made
++testing: new app icon, help-> about dialog
+
+v0.9:
++save/load playlist under File menu (plus auto save when closing, so when opening the application remembers its previous state)
++keyboard shortcuts: space for play/pause, �, .� for next/prev (buttons which when shifted are are  < >), �+ or =� and �-� for zooming in and out (a must for laptops with no mouse wheel strip on the touchpad)
++better behavior on sources: now right click track -> sources can list multiple local sources, plus a descriptive header is added
+
+v0.8.5:
++Right click track/node to see the album in which this track is featured!
+Enqueue all album tracks or one by one those you want (hover under the album(s) and wait while it�s searhing online.. same goes to see the album tracks, hover over the album title and wait)
+
+v0.8:
++Search modes:
+	track/artist: old, normal behavior.
+	artist:  type an artist�s name and you will get the top tracks
+	tag: type a tag (eg: jazz, dubstep, sexy� whatever you can think of really) and you get the tag�s top tracks
+#fix2: fixed bugs: playback stopping,not selecting source
+
+v0.7.5:
++Arrows in the connection-lines! (showing the direction parent -> child)
++Theme/skin selection (menu Options->select theme)
++Selecting a source for a track: right click track/circle -> source
++Under the hood fixes
+
+v0.7:
++Circles now use svg images for background (feel free to theme/hack this)
++Text drawing extends beyond the circle (an option might be added for this)
++New default theme
+
+v0.6.2:
++Last.fm now playing better behavior
++Edit track dialog (right click edit).. when the title is misspelled and similar cannot be found, simply edit the artist, title fields
+
+v0.6.1:
++search form buttons (clear, search) for a lazy guy who�s away from keyboard (can�t reach the enter O.o)
+v0.6:
++Last.fm scrobbler
++Preferences get saved (inside options.ini file)
++Track gets added in history after 30 seconds have passed (maybe an option for this will be added)
+
+v0.5:
++added preferences dialog (under menu->options)
++theme changes (icons can be changed, they�re located under /style/img/)
++added context menu for right click in empty space (action to �Clear all�)
+
+v0.4.5.2:
++fixed stupid crash/lyrics retrieval loop
+
+v0.4.5:
++better lyrics find (match artist � title), currently using lyrdb database only, TODO: search from more sources for lyrics
+
+v0.4.4:
++Preliminary lyrics support (wrong lyrics maybe shown cuz search is based only in track title for now)
+
+v0.4.3:
++Fixes!!
++Added options:
+Just 1 option for now: set playing circle as root of the tree or not
+(if not [default] the tree just keeps growing, right click ->set as root to reset it)
+
+v0.4.2:
++Fixes!
+
+v0.4.1:
++fixed some crashing
++history now has source (should have like this from the beginning..)
+
+v0.4:
++Added functionality for keyboard modifiers:
+(shift+drag a circle to disconnect it from it�s parent, and drop it over another to connect them!,
+ctrl+drag a circle to make a copy of it -again drop it over another to connect)
++Added an option in the right click menu, to delete siblings
++fixed SOME crashing issues
+
+v0.3b:
++Added history! (in the simplest form for now)
++Fix: auto update library view when adding folders
+
+v0.3a:
++Better last.fm similar selection

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>cmp_logo.png</file>
+    </qresource>
+</RCC>

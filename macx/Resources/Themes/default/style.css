@@ -1,0 +1,269 @@
+#centralWidget {
+    background:#333;
+}
+QTabBar::tab {
+    background-color:#333;
+    color:white;
+    padding:8px 12px;
+	border-right: 1px solid #666;
+}
+ QTabWidget::tab-bar {
+ alignment: left;
+ padding: 100px;
+ }
+
+QTabBar::tab:only-one {
+margin: 0; /* if there is only one tab, we don't want overlapping margins */
+}
+
+QTabBar::tab:selected {
+    background: #00788B;
+    color: white;
+	border-top: 5px solid black;
+}
+QTabBar::tab:!selected {
+    margin-top:5px;
+}
+QTabWidget::pane {
+    /* The tab widget frame */
+	border-top:2px solid #00788B;
+    background:#333;
+	color: white;
+}
+QTextEdit, QLineEdit{
+	background-color:#CCC;
+	selection-background-color: #00788B;
+	border:1px solid #666;
+}
+#centralWidget QPushButton{
+	padding: 2px 6px;
+	color: white;
+	border: 1px solid #666;
+}
+#centralWidget QLabel{
+	padding: 3px 2px;
+	color: white;
+}
+
+
+#centralWidget QPushButton:hover{
+	background-color: #666;
+}
+QComboBox {
+	background-color:#333;
+	color: white;
+    border: 1px solid #666;
+    padding: 1px 5px 1px 3px;
+}
+
+QComboBox{
+	background: #333;
+}
+
+QComboBox:on{
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 #666, stop: 1.0 #333);
+	/*background: #666;*/
+	padding-top: 3px;
+	padding-left: 4px;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 5px;
+	padding:5px;
+	border: 0px;
+	border-left: 1px solid #666;
+}
+ 
+QComboBox::down-arrow {
+	image: url(down-arrow.png);
+}
+
+QComboBox QAbstractItemView{
+	padding: 4px;
+	border: 1px solid #666;
+	background-color: #333;
+	color: white;
+	selection-padding: 10px;
+	selection-background-color: #00788B;
+	section-color: white;
+	outline:none;
+}
+
+ 
+QTableView {
+	color: black;
+    background-color:#CCC;
+    selection-background-color: #00788B;
+	selection-color: white;
+    height:2px;
+}
+QHeaderView {
+    background-color: #666;
+}
+QHeaderView::section {
+    background-color: #333;
+	color:white
+}
+
+QTableCornerButton::section {
+    background: #333;
+}
+
+QListWidget {
+	
+    background-color:#CCC;
+	outline:none;
+}
+
+QListWidget::item:selected {
+    background-color: #00788B;
+	color: white;
+	border: 1px solid #6a6ea9;
+}
+QSplitter#mainSplitter::handle {
+    background-color: #00788B;
+	
+ 	background-image:url(stripes.png);
+	height:7px;
+	/* border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC; */
+}
+
+QGraphicsView {
+	border-style: none;
+	padding-top: 3px;
+	background-color: #333;
+}
+QStatusBar {
+    background-color:#111;
+    color: white;
+}
+#TransportBar {
+    background-color:#333;
+	border: 0;
+    border-top: 1px solid #666;
+}
+#TransportBar QLabel{
+	color: white;
+}
+#TransportBar QToolButton {
+	background: transparent;
+}
+#TransportBar QToolButton:hover {
+	background: #666;
+	border: 0px;
+	border-radius: 6px;
+}
+QSlider::groove:horizontal {
+    border:1px solid black;
+    border-radius:4px;
+    height:8px;
+    /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+	background: #CCC;
+    margin:2px 0;
+}
+QSlider::handle:horizontal {
+    /*background:qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #b4b4b4, stop:1 #8f8f8f);
+	*/
+	background: #666;
+    border:1px solid black;
+	border-style: inset;
+    width:14px;
+    margin:-4px -2px;
+    /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+	border-radius:8px;
+}
+QSlider::sub-page:horizontal {
+background: #00788B;
+margin: 2px 0px;
+border-radius:4px;
+border: 1px solid #000;
+}
+QAbstractScrollArea::corner {
+    background:transparent;
+}
+/*VERTICAL SCROLLBAR*/
+#centralWidget QScrollBar{
+	border:1px solid black;
+	background:#BBB;
+}
+#centralWidget QScrollBar:vertical {
+    width:15px;
+    margin:15px 0 15px 0;
+}
+#centralWidget QScrollBar:horizontal {
+    height:15px;
+    margin:0px 15px 0 15px;
+}
+#centralWidget QScrollBar::handle{
+	margin: 1px;
+	background:#666;
+}
+#centralWidget QScrollBar::handle:vertical {
+    min-height:20px;
+}
+#centralWidget QScrollBar::handle:horizontal {
+    min-width:20px;
+}
+#centralWidget QScrollBar::add-line{
+    background: #777;
+	border: 1px solid black;
+	margin: 1px;
+	height:13px;
+	width:13px;
+}
+#centralWidget QScrollBar::sub-line{
+	background: #777;
+	border: 1px solid black;
+	margin: 1px;
+	height:13px;
+	width:13px;
+}
+#centralWidget QScrollBar::add-line:vertical {
+    subcontrol-position:bottom;
+    subcontrol-origin:margin;
+}
+#centralWidget QScrollBar::sub-line:vertical{
+    subcontrol-position:top;
+    subcontrol-origin:margin;
+}
+#centralWidget QScrollBar::up-arrow:vertical {
+    width:11px;
+    height:11px;
+	background-image:url(scrollbar/arrow-up.png);
+}
+ QScrollBar::down-arrow:vertical {
+    width:11px;
+    height:11px;
+	background-image:url(scrollbar/arrow-down.png);
+}
+#centralWidget QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background:none;
+}
+/*HORIZONTAL SCROLLBAR*/
+
+#centralWidget QScrollBar::add-line:horizontal{
+    subcontrol-position:right;
+    subcontrol-origin:margin;
+}
+
+#centralWidget QScrollBar::sub-line:horizontal {
+    subcontrol-position:left;
+    subcontrol-origin:margin;
+}
+#centralWidget QScrollBar:left-arrow:horizontal{
+    width:11px;
+    height:11px;
+    background-image:url(scrollbar/arrow-left.png);
+}
+#centralWidget QScrollBar::right-arrow:horizontal {
+    width:11px;
+    height:11px;
+    background-image:url(scrollbar/arrow-right.png);
+}
+#centralWidget QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background:none;
+}
