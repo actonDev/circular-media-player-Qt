@@ -18,11 +18,11 @@ No guarantee for anything or whatever.
 ## Showcase
 Since we are visual creatures
 
-Searching tag top tracks\
+Searching tag top tracks
 
 ![Searching tag top tracks](img/cmp_0-9-1.png)
 
-More searching\
+More searching
 
 ![More search](img/cmp_0-9-4-3.png)
 
