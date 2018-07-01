@@ -15,3 +15,15 @@ No guarantee for anything or whatever.
 	https://sourceforge.net/projects/circular-mp/
 	http://www.facebook.com/pages/Circular-Media-Player/285555991545018
 			
+## Showcase
+Since we are visual creatures
+
+[Searching tag top tracks](./img/cmp_0-9-1.png)
+
+[More search](./img/cmp_0-9-4-3.png)
+
+[Source local/online and saving playlist](./img/cmp_0-91.png)
+
+[Cool spiral](./img/cmp_spiral.png)
+
+[Reordering nodes](./img/reorder_children.gif)
