@@ -18,12 +18,22 @@ No guarantee for anything or whatever.
 ## Showcase
 Since we are visual creatures
 
-[Searching tag top tracks](img/cmp_0-9-1.png?raw=true)
+Searching tag top tracks
 
-[More search](img/cmp_0-9-4-3.png?raw=true)
+![Searching tag top tracks](img/cmp_0-9-1.png)
 
-[Source local/online and saving playlist](img/cmp_0-91.png?raw=true)
+More searching
 
-[Cool spiral](img/cmp_spiral.png?raw=true)
+![More search](img/cmp_0-9-4-3.png)
 
-[Reordering nodes](img/reorder_children.gif?raw=true)
+Source local/online and saving playlist
+
+![Source local/online and saving playlist](img/cmp_0-91.png)
+
+Cool spiral
+
+![Cool spiral](img/cmp_spiral.png)
+
+Reordering nodes
+
+![Reordering nodes](img/reorder_children.gif)
